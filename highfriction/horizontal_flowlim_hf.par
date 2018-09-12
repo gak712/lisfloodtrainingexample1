@@ -1,0 +1,21 @@
+DEMfile		dem_1m.asc
+resroot		flowlim
+dirroot		results
+sim_time	3600.0
+initial_tstep	2.0
+massint		10.0
+saveint		360.0
+fpfric		0.03
+bcifile		horizontal_1m.bci
+bdyfile		horizontal.bdy
+elevoff
+startfile horizontal_start.depth
+
+#acceleration
+#Roe
+adaptoff
+
+
+
+
+
